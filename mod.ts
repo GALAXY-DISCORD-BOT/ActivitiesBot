@@ -95,7 +95,7 @@ slash.handle("activity", (d) => {
 
 slash.handle("invite", (d) => {
   d.reply(
-    `• [Click here to invite.](<https://discord.com/oauth2/authorize?client_id=820257556969816075&scope=bot&permissions=2147486730>)\n` +
+    `• [Click here to invite.](<https://discord.com/oauth2/authorize?client_id=834511419500134461&permissions=1&scope=bot%20applications.commands>)\n` +
       `• [Join our Discord.](<https://dsc.gg/crt>)`,
     { ephemeral: true }
   );
